@@ -13,7 +13,10 @@ def main():
     glucose = (carbon - carbon_diox) / 6
     water = -carbon + carbon_diox + hydrogen / 2
 
-    print(floor(water), floor(carbon_diox), floor(glucose))
+    if water < 0 or carbon_diox < 0 or glucose < 0:
+        print('Error')
+    else:
+        print(floor(water), floor(carbon_diox), floor(glucose))
 
 
 main()
