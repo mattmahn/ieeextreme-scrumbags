@@ -8,7 +8,7 @@ def prime_factors(N):
     if N % 2 == 0:
         pf.append(2)
         while N % 2 == 0:
-            N = N >> 2
+            N = N >> 1
     for x in range(3, math.floor(math.sqrt(N)), 2):
         if N % x == 0:
             pf.append(x)
