@@ -52,12 +52,6 @@ def from_base(num_str, base, base_symbols):
 
 
 def int2base(x,b,alphabet='0123456789abcdefghijklmnopqrstuvwxyz'):
-    if x<=0:
-        if x==0:
-            return alphabet[0]
-        else:
-            return  '-' + int2base(-x,b,alphabet)
-    # else x is non-negative real
     rets=''
     while x>0:
         x,idx = divmod(x,b)
