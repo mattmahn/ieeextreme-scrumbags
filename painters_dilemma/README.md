@@ -35,7 +35,7 @@ For each scenario, you should output, on a line by itself, the minimum number of
 9 1 7 6 9 9 8 7 6 7
 ```
 
-Sample Output
+## Sample Output
 ```
 3
 6
