@@ -11,23 +11,6 @@ class CheckableQueue(queue.Queue):
             return item in self.queue
 
 
-class CheckablePriorityQueue(queue.PriorityQueue):
-    def __contains__(self, item):
-        with self.mutex:
-            return item in (x.description for x in self.queue)
-
-
-class Skill(object):
-    def __init__(self, priority, description):
-        self.priority = priority
-        self.description = description
-
-        return
-
-    def __lt__(self, other):
-        return self.priority < other.priority
-
-
 def main():
     test_cases = int(input())
 
@@ -57,6 +40,8 @@ def process_test_case():
     q_repl = 0
     pq_repl = 0
 
+    pq_last_priority = 0
+
     for _ in range(num_accesses):
         address = int(input())
         page = math.floor(address / page_size)
@@ -73,14 +58,16 @@ def process_test_case():
 
 
         if page_in_pq:
-            add_page(page)
+            add_page(page, pq_last_priority)
+            pq_last_priority += 1
         else:
             if not page_in_pq and len(pq) >= num_pages:
                 pq_repl += 1
                 pop_task()
 
             if not page_in_pq:
-                add_page(page)
+                add_page(page, pq_last_priority)
+                pq_last_priority += 1
 
     advertise = pq_repl < q_repl
 
