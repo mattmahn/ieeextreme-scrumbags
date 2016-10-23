@@ -2,19 +2,19 @@
 
 In order to motivate his Peruvian students, a teacher includes words in the Quechua language in his math class.
 
-Today, he defined a curious set for a given positive integer **N**. He called this set, an Inti set, and defined it as the set of all positive integer numbers that have the number 1 as their single common positive divisor with number **N**.
+Today, he defined a curious set for a given positive integer *N*. He called this set, an Inti set, and defined it as the set of all positive integer numbers that have the number 1 as their single common positive divisor with number *N*.
 
-The math class about Inti sets was amazing. After class, the students try to challenge to teacher. They each ask questions like this: "Could you tell me the sum of all numbers, between **A** and **B** (inclusive), that are in the Inti set of **N**?"
+The math class about Inti sets was amazing. After class, the students try to challenge to teacher. They each ask questions like this: "Could you tell me the sum of all numbers, between *A* and *B* (inclusive), that are in the Inti set of *N*?"
 
 Since the teacher is tired and he's sure that you are the best in class, he wants to know if you can help him.
 
 ## Input Format
 
-The first line of input contains an integer **Q**, 1 ≤ **Q** ≤ 20, representing the number of students. Each of the next **Q** lines contain three space-separated integers **N**, **A** and **B**, which represent a query.
+The first line of input contains an integer *Q*, 1 ≤ *Q* ≤ 20, representing the number of students. Each of the next *Q* lines contain three space-separated integers *N*, *A* and *B*, which represent a query.
 
 ## Constraints
 
-1 ≤ **A** ≤ **B** ≤ **N** ≤ 1012
+1 ≤ *A* ≤ *B* ≤ *N* ≤ 1012
 
 ## Output Format
 

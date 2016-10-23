@@ -2,9 +2,9 @@
 
 When most computer scientists ask, "Does P = NP?", they are asking whether there are decision problems that can be verified in polynomial time, but not solved in polynomial time.
 
-However, when Dr. I.M. Columsie asks this question, he is wondering about the relationship between pizza consumption and success in programming contests. His current research analyzes the results of a previous Xtreme contest. He gathered the final rankings for a selected subset of teams, and divided them into two, non-empty groups - a pizza (p) group, where team members ate copious amounts of pizza during the contest, and a no pizza (np) group, where the team members did not eat pizza. His hypothesis is that the pizza improves performance in these contests.
+However, when Dr. I.M. Columsie asks this question, he is wondering about the relationship between pizza consumption and success in programming contests. His current research analyzes the results of a previous Xtreme contest. He gathered the final rankings for a selected subset of teams, and divided them into two, non-empty groups - a pizza (*p*) group, where team members ate copious amounts of pizza during the contest, and a no pizza (*np*) group, where the team members did not eat pizza. His hypothesis is that the pizza improves performance in these contests.
 
-He wanted to compare the rankings of the two groups to see if the data supports his hypothesis. He started by writing down the sorted rankings within the p group and the np group. He noted that there were no teams that tied in the data he gathered, so all of the rankings were unique (both within each group and across the two groups).
+He wanted to compare the rankings of the two groups to see if the data supports his hypothesis. He started by writing down the sorted rankings within the *p* group and the *np* group. He noted that there were no teams that tied in the data he gathered, so all of the rankings were unique (both within each group and across the two groups).
 
 He was about to compute the mean of the rankings for the two groups, when he spilled coffee all over his computer and the written sorted rankings. Unfortunately he lost the raw data on the computer, and a number of the written rankings were no longer readable.
 

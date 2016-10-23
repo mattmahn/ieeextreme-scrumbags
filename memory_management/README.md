@@ -10,27 +10,27 @@ Dr. X is excited by the prospect of improved performance for LRU page replacemen
 
 ## Input Format
 
-The input begins with an integer t, 1 ≤ t ≤ 20, which gives the number of test cases in the input.
+The input begins with an integer *t*, 1 ≤ *t* ≤ 20, which gives the number of test cases in the input.
 
-Each test case begins with a line containing three space-separated integers p, s and n, where p is the number of pages present in the OS for a program, s is the size of each page and n is the number of memory accesses by the application.
+Each test case begins with a line containing three space-separated integers *p*, *s* and *n*, where *p* is the number of pages present in the OS for a program, *s* is the size of each page, and *n* is the number of memory accesses by the application.
 
-The next n lines will contain the various addresses accessed by the application.
+The next *n* lines will contain the various addresses accessed by the application.
 
 Note: In order to solve this challenge, you will need to identify the page that corresponds to the addresses listed. The page number is given by the formula: floor([address]/s).
 
 ## Constraints
 
-p and s will always be a power of 2
+*p* and *s* will always be a power of 2
 
-1 ≤ p ≤ 128, 128 ≤ s ≤ 4096, 1 ≤ n ≤ 600
+1 ≤ *p* ≤ 128, 128 ≤ *s* ≤ 4096, 1 ≤ *n* ≤ 600
 
-The memory addresses range from 0 to 231-1, inclusive
+The memory addresses range from 0 to 2<sup>31</sup>-1, inclusive
 
 ## Output Format
 
 For each test case, you should output a single line with three space-separated values:
 
-The first value should be either yes or no: If the application can be advertised, then the output should be yes. If not, the output should be no.
+The first value should be either `yes` or `no`: If the application can be advertised, then the output should be `yes`. If not, the output should be `no`.
 
 The second value should be the number of page replacements under the FIFO page replacement approach.
 
