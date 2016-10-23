@@ -16,7 +16,7 @@ All of the next lines (except the last one) denotes the sequence of the rooms th
 
 ## Constraints
 
-1 <= *X*, *Y* <= *N* <= 1000
+1 ≤ *X*, *Y* ≤ *N* ≤ 1000
 
 ## Output Format
 
