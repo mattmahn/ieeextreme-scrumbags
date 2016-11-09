@@ -10,9 +10,9 @@ Each testcase consists of an integer *N*, on a line by itself.
 
 ## Constraints
 
-1 &lt; *T* &lt; 100000
+1 <= *T* <= 100000
 
-1 &lt; *N* < 2<sup>63</sup>
+1 <= *N* < 2^63
 
 ## Output Format
 

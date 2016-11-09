@@ -14,11 +14,11 @@ The *G* games are then described in two lines as follows: The first line gives t
 
 ## Constraints
 
-1 &lt; *T* &lt; 10
+1 <= *T* <= 10
 
-1 &lt; [Number of piles in all games in a testcase] &lt; 105
+1 <= [Number of piles in all games in a testcase] <= 105
 
-1 &lt; [Number of stones in a pile] &lt; 109
+1 <= [Number of stones in a pile] <= 109
 
 ## Output Format
 
