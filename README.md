@@ -19,7 +19,7 @@ Turns out all the entries submitted during IEEEXtreme 10.0 become the property
 of IEEE, so I suppose these solutions belong to them.
 
 The problem statements belong entirely to IEEEXtreme, they were simply
-copy-and-pasted and had some Markddown formatting put back in.
+copy-and-pasted and had some Markdown formatting put back in.
 
 
 [ieeex 10]: http://www.ieee.org/membership_services/membership/students/competitions/xtreme/index.html
