@@ -33,7 +33,7 @@ The number of unique configurations reachable from any input (either forwards or
 The output is a single line containing two integers *D* and *H*, separated by a blank-space. The first integer *D* is the depth of the Mancala’h configuration specified in the input. The second integer *H* is the height of the Mancala’h configuration specified in the input.
 
 ## Sample Input
-``
+```
 2 1 1
 ```
 
